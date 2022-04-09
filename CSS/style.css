@@ -1,0 +1,31 @@
+
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: azure;
+}
+
+h1{
+    color: rgb(10, 200, 135);
+    
+}
+
+/*flex-Box*/
+.container{
+    padding: 5px 0;
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item{
+    background-color: rgb(44, 220, 161);
+}
+/*item*/
+.item:nth-child(1){ }
+.item:nth-child(2){ }
+.item:nth-child(3){ }
+.item:nth-child(4){ }
